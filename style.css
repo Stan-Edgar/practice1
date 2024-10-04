@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    width: 800px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px -1px 20px 10px rgba(0, 0, 0, 0.504) inset;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.logo {
+    width: 40px;
+}
