@@ -1,0 +1,58 @@
+:root {
+    
+}
+
+body {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    font-family: Oswald;
+}
+
+.Header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: #6EC2FF;
+}
+
+.hero {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+.button {
+width: 120px;
+position: relative;
+height: 40px;
+border-radius: 10px;
+padding: 3px;
+background-image: linear-gradient(#6EC2FF, #1C289A);
+}
+
+button {
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+.Inv {
+    width: 400px;
+}
